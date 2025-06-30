@@ -1,0 +1,13 @@
+Packages required:
+Python 3.7+
+Pandas
+Matplotlib
+spaCy library (for anaconda)
+command for installing: conda install -c conda-forge spacy
+spaCy english core language package
+command for downloading: python -m spacy download en_core_web_sm
+For any confusion you can visit https://spacy.io/ and check out their documentation.
+Files Required:
+An excel file with 2 sheets:
+Keywords: for custom rule matching
+JDs/Resume: list of company/candidate names and their Job Descriptions/resumes.
