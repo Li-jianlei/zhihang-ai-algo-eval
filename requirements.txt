@@ -1,0 +1,23 @@
+# 简历解析
+spacy==3.7.2
+pdfplumber==0.10.3
+python-docx==0.8.11
+scikit-learn==1.4.2
+
+# 岗位匹配算法
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+
+# 问答系统与评估
+deeppavlov==1.3.2
+nltk==3.8.1
+sacrebleu==2.4.0
+
+# 情绪识别
+torch==2.3.0
+torchvision==0.18.0
+opencv-python==4.9.0.80
+
+# Web端部署与展示
+flask==3.0.3
