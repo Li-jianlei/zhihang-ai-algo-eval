@@ -4,13 +4,21 @@
 ## 项目结构
 
 zhihang-ai-algo-eval/
+
 ├── data/ # 测试用样本数据（简历、岗位JD、问答样本等）
+
 ├── resume_parser/ # 简历解析模块（spaCy NER 实体提取）
+
 ├── jd_parser/ # 岗位信息解析模块（关键词匹配）
+
 ├── matcher/ # 岗位匹配度计算模块（TF-IDF + Cosine）
+
 ├── emotion_eval/ # 情绪识别模块（FER+模型评估）
+
 ├── qna_eval/ # 问答生成与评估模块（DeepPavlov + BLEU）
+
 ├── requirements.txt # Python依赖环境配置
+
 └── README.md # 项目说明文件
 
 ## 功能模块说明
